@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background15">
+
+    <RelativeLayout
+        android:id="@+id/activity_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        tools:context="com.collegeproject.dev3dot.appoinment.PreferenceActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <!--menstruation length row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/menstruation_length_label"
+                    android:layout_weight="1"
+                    android:width="60dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/menstruation_length_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:enabled="false"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:width="0dp" />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_plus_label"
+                    android:onClick="menstruationLengthPlusOne"
+                    android:width="0dp"
+                    android:textSize="9pt"
+                    android:textColor="@color/red"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:width="0dp"
+                    android:onClick="menstruationLengthMinusOne"
+                    android:text="@string/button_minus_label"
+                    android:textSize="14pt"/>
+            </LinearLayout>
+
+            <!--period length row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/period_length_label"
+                    android:layout_weight="1"
+                    android:width="60dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/period_length_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:enabled="false"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:width="0dp" />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_plus_label"
+                    android:onClick="periodLengthPlusOne"
+                    android:width="0dp"
+                    android:textSize="9pt"
+                    android:textColor="@color/red" />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/button_minus_label"
+                    android:onClick="periodLengthMinusOne"
+                    android:width="0dp"
+                    android:textSize="14pt" />
+            </LinearLayout>
+
+            <!--last period row-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/last_period_date_label"
+                    android:layout_weight="1"
+                    android:width="60dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/last_period_date_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="date"
+                    android:enabled="false"
+                    android:layout_weight="2"
+                    android:width="0dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pick_last_period_date"
+                    android:onClick="showDatePickerDialog"
+                    android:layout_weight="1"
+                    android:width="0dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@string/button_plus_label"/>
+            </LinearLayout>
+
+            <Switch
+                android:text="@string/incoming_period_notification_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/incoming_period_notification" />
+
+            <Switch
+                android:text="@string/fertile_days_notification_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/fertile_days_notification" />
+
+            <Switch
+                android:text="@string/ovulation_notification_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="14dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ovulation_notification" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/update_preferences"
+                android:onClick="updatePreferences"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"
+
+                />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_width="180dp"
+                android:layout_height="55dp"
+                android:text="@string/clear_calendar"
+                android:onClick="clearPeriodCalendar"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    tools:context="com.collegeproject.dev3dot.projecthealthcare.MonthConfirmationActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutMonth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp">
+        <EditText
+            android:id="@+id/editTextMonthConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="75dp"
+            android:ems="10"
+            android:hint="Number of Month"
+            android:textAlignment="center"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.316"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonSubmitMonth"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="40dp"
+        android:onClick="SubmitOnClickMonth"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        android:layout_below="@+id/textInputLayoutMonth"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"/>
+
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:paddingLeft="14sp"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/buttonSubmitMonth"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/textSwitcher" />
+
+    <Button
+        android:id="@+id/buttonprv"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textSwitcher"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="42dp"
+        android:text="Previous Date"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:id="@+id/buttonnxt"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Next Date"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:layout_alignTop="@+id/buttonprv"
+        android:layout_toEndOf="@+id/buttonSubmitMonth"
+        android:layout_marginStart="23dp" />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

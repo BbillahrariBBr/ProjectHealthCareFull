@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:padding="0dp"
+        android:id="@+id/relativeLayout"
+        >
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/darkBlue"
+            android:textSize="14sp"
+            android:gravity="left"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textViewPlace"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/textViewPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/textViewName"
+            android:layout_alignParentStart="true"
+            />
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/textViewPlace"
+            android:layout_alignStart="@+id/textViewPlace" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/emergencyCall_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone_in_talk"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/background12"
+    android:orientation="vertical"
+    tools:context="com.collegeproject.dev3dot.projecthealthcare.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_pregnancy_guide"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/preganancyguide" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pregnancy Guide"
+                android:textSize="9pt" />
+
+            <Button
+                android:id="@+id/button_duedate"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/fetal1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Due date &amp; Fetale Age"
+                android:textSize="9pt" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_mesntrual"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/mesntrual1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menstrual info"
+                android:textSize="9pt" />
+
+            <Button
+                android:id="@+id/button_appointdate"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/appoint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Checkup date"
+                android:textSize="9pt" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

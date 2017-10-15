@@ -1,0 +1,1061 @@
+<resources>
+    <string name="app_name">Health Care</string>
+
+    <!-- Slide1 title and Description-->
+
+    <string name="slide_1_title">Disease Detection</string>
+    <string name="slide_1_desc">Explore the most common disease detection</string>
+
+    <!-- Slide2 title and Description-->
+
+    <string name="slide_2_title">Primary Treatment</string>
+    <string name="slide_2_desc">Explore the most common primary treatment </string>
+
+    <!-- Slide3 title and Description-->
+
+    <string name="slide_3_title">Food Plan</string>
+    <string name="slide_3_desc">Explore the most common food plan </string>
+
+    <!-- Slide4 title and Description-->
+
+    <string name="slide_4_title">Pregnancy Care</string>
+    <string name="slide_4_desc">Explore the most attractive pregnancy care</string>
+
+    <!-- Slide5 title and Description-->
+
+    <string name="slide_5_title">Emergency Contacts</string>
+    <string name="slide_5_desc">Explore the most common emergency contacts</string>
+
+    <!-- sharedPreference-->
+
+    <string name="my_preference">"com.collegeproject.dev3dot.projecthealthcare.Mypref"</string>
+    <string name="my_preference_key">"com.collegeproject.dev3dot.projecthealthcare.MyprefKey"</string>
+
+    <!-- text exmple string add-->
+    <string name="ex_1">Ex: Fever over 100.4 F</string>
+    <string name="ex_2">Ex: Sore throat</string>
+    <string name="ex_3">Ex: Nasal congestion</string>
+    <string name="button_next_food_plan">Next</string>
+
+    <!--String add adnan listView -->
+
+
+    <string-array name="treatmentName">
+        <item>Fever</item>
+        <item>Migraine</item>
+        <item>Unconsciousness</item>
+        <item>Throat Obstruction</item>
+        <item>Stroke</item>
+        <item>Fingertip Injuries</item>
+        <item>Diarrhoea</item>
+        <item>Drowning</item>
+        <item>Snakebite</item>
+    </string-array>
+
+    <string-array name="foodName">
+        <item>What to eat</item>
+        <item>What not to eat</item>
+        <item>Vitamins and minerals</item>
+        <item>How much to eat</item>
+        <item>Weight plan</item>
+    </string-array>
+
+    <string-array name="exerciseName">
+        <item>General Tips</item>
+        <item>Why exercise</item>
+        <item>Exercise to avoid</item>
+        <item>Enjoyable exercises</item>
+        <item>Kegel Exercise</item>
+    </string-array>
+
+    <string-array name="labourName">
+        <item>Preparing for labor</item>
+        <item>Signs of labor</item>
+        <item>Stages of labor</item>
+        <item>Positions for labor</item>
+        <item>Breathing</item>
+        <item>Water births</item>
+        <item>Natural birth</item>
+        <item>Home birth</item>
+        <item>Cesarean birth</item>
+
+    </string-array>
+
+    <string-array name="adviceName">
+        <item>Staying Healthy During Pregnancy</item>
+        <item>Take a Prenatal Vitamin</item>
+        <item>Write a Birth Plan</item>
+        <item>Educate Yourself</item>
+        <item>Practice Kegels</item>
+        <item>Change Up Chores</item>
+        <item>Track Your Weight Gain</item>
+        <item>Eat Folate-Rich Foods</item>
+        <item>Recharge with Fruit</item>
+        <item>Go Fish</item>
+        <item>Fly Smart</item>
+        <item>Know When to Call the Doctor</item>
+        <item>Indulge Yourself</item>
+
+    </string-array>
+
+    <array name="primaryTreatmentPictures">
+        <item>@drawable/fever</item>
+        <item>@drawable/migrane</item>
+        <item>@drawable/senseless</item>
+        <item>@drawable/throte</item>
+        <item>@drawable/stroke</item>
+        <item>@drawable/cuttingfinger</item>
+        <item>@drawable/diarrhoea</item>
+        <item>@drawable/drawning</item>
+        <item>@drawable/snakebite</item>
+
+    </array>
+
+    <array name="foodPictures">
+        <item>@drawable/food_what_to_eat</item>
+        <item>@drawable/food_what_not_to_eat</item>
+        <item>@drawable/food_vitamins_minerals</item>
+        <item>@drawable/food_how_much_to_eat</item>
+        <item>@drawable/food_weight_plan</item>
+    </array>
+
+    <array name="exercisePictures">
+        <item>@drawable/exercise_general_tips</item>
+        <item>@drawable/exercise_why_exercise</item>
+        <item>@drawable/exercise_to_avoid</item>
+        <item>@drawable/exercise_enjoyable_exercises</item>
+        <item>@drawable/exercise_kegel_exercise</item>
+    </array>
+
+
+    <array name="labourPictures">
+        <item>@drawable/labour_preparing_for_labour</item>
+        <item>@drawable/labour_signs_of_labour</item>
+        <item>@drawable/labour_stages_of_labour</item>
+        <item>@drawable/labour_positions_for_labour</item>
+        <item>@drawable/labour_breathing</item>
+        <item>@drawable/labour_water_birth</item>
+        <item>@drawable/labour_natural_birth</item>
+        <item>@drawable/labour_home_birth</item>
+        <item>@drawable/labour_caesarean_birth</item>
+
+
+    </array>
+
+    <array name="advicePictures">
+        <item>@drawable/advice_staying_healthy_during_pregnancy</item>
+        <item>@drawable/advice_take_a_prenatal_vitamin</item>
+        <item>@drawable/advice_write_a_birth_plan</item>
+        <item>@drawable/advice_educate_yourself</item>
+        <item>@drawable/advice_practice_kegels</item>
+        <item>@drawable/advice_change_up_chores</item>
+        <item>@drawable/advice_track_your_weight_gain</item>
+        <item>@drawable/advice_eat_folate_rich_foods</item>
+        <item>@drawable/advice_recharge_with_fruit</item>
+        <item>@drawable/advice_go_fish</item>
+        <item>@drawable/advice_fly_smart</item>
+        <item>@drawable/advice_know_hen_to_call_the_doctor</item>
+        <item>@drawable/advice_indulge_yourself</item>
+
+
+    </array>
+
+    <string-array name="primaryTreatmentDefination">
+
+        <item>"When the temperature of the body is very high, ie above 98 degrees Fahrenheit, then we say that the condition of the body is fever.
+            Fever is not a disease, it is expressed as a symptom of various diseases. However, high fever can be dangerous, especially in small children's fields.\n"</item>
+
+        <item>Migraines are characterized by severe head pain often accompanied by other symptoms,
+            which can be disabling in nature. These migraine symptoms include but are not limited to:
+            nausea, vomiting, difficulty speaking, numbness or tingling, and sensitivity to light and sound.\n</item>
+
+        <item>"Unconsciousness is when a person suddenly becomes unable to respond to stimuli and appears to be asleep.
+            A person may be unconscious for a few seconds (fainting) or for longer periods of time.\n
+            People who become unconscious don’t respond to loud sounds or shaking.\n"</item>
+
+        <item>Do you every feel like you have a bump in your throat that interfering with your ability to swallow properly? If so,
+            you probably suffer from a very common problem known as throat obstruction.
+            There are different factors that could make you feel that there is a blockage or an obstruction in your throat.\n"</item>
+
+        <item>A stroke, sometimes called a \"brain attack,\" occurs when blood flow to an area in the brain is cut off.\n"</item>
+
+        <item>An amputation can result from slamming your finger in a car door or catching your ring on a hook or nail.</item>
+
+        <item>Many people get diarrhea once or twice each year. It normally lasts 2 to 3 days, and you can treat it with over-the-counter
+            medicines. Some people get it more often as part of irritable bowel syndrome (IBS) or other conditions.</item>
+
+        <item>"Drowning is when someone is unable to breathe because their nose and mouth are submerged in water, or in another liquid.\n\n
+             When someone's drowning, it may not look like the violent, splashing call for help that most people expect from watching TV.
+            When someone’s actually drowning, they won’t able to make any noise, so can easily go unnoticed,
+            even if friends or family are nearby.\n"</item>
+
+        <item>"A snakebite is an injury caused by the bite of a snake, especially a venomous snake. A common symptom of a bite from a venomous
+            snake is the presence of two puncture wounds from the animal's fangs\n"</item>
+    </string-array>
+
+    <string-array name="primaryTreatmentCauses">
+        <item>
+                    * A bacterial infection\n
+                    * Heat exhaustion\n
+                    * Extreme sunburn\n
+                    * Certain inflammatory conditions such as rheumatoid arthritis — inflammation of the lining of your joints (synovium)\n"
+                    * A malignant tumor\n
+                    * Some medications, such as antibiotics and drugs used to treat high blood pressure or seizures\n"
+                    * Some immunizations, such as the diphtheria, tetanus and acellular pertussis (DTaP) or pneumococcal vaccine.\n"</item>
+
+        <item>      "*Hereditary or genetic.\n"
+                    * Anxiety and unrest.\n"
+                    * Environmental pollution, air pollution etc.\n"
+                    * Smoking and drinking\n"
+                    * Sunny or hot.\n"
+                    * Intense odor such as oats, perfumes etc.\n"
+                    * Because of chocolate or such food.\n"
+                    * Less sleep or staying in bed for extra time.\n"
+                    * Due to irregular eating and drinking less water.\n"</item>
+
+        <item>"Common causes of unconsciousness include:\n"
+                    * A car accident\n"
+                    * Aevere blood loss\n"
+                    * A blow to the chest or head\n"
+                    * A drug overdose\n"
+                    * Alcohol poisoning\n"
+                    A person may become temporarily unconscious (faint) when sudden changes occur within the body.
+            Common causes of temporary unconsciousness include:\n"
+                    * Low blood sugar\n"
+                    * Low blood pressure\n"
+                    * Syncope (loss of consciousness due to lack of blood flow to the brain)\n"
+                    * Dehydration\n"
+                    * Problems with the heart’s rhythm\n"
+                    * Neurologic syncope (loss of consciousness caused by a seizure, stroke, or transient ischemic attack)\n"
+                    * Straining\n"
+                    * Hyperventilating\n"</item>
+
+        <item> "Contrary to what many people believe, not all causes for throat obstruction are serious or alarming.
+                    There could be different factors that lead to an obstruction in your throat, such as:\n
+                        Swallowing Hard Objects: You may suffer from a throat obstruction problem, after a piece of food gets stuck in your throat.
+                    This is more common in case of chicken or fish bones. This is also very common in children,
+                    who could swallow a hard piece of candy without chewing it properly, or even other inedible objects.\n
+                        Infection: There are many small glands, like the lymphatic nodes present in the neck and throat area.
+                    These nodes perform the important function of protecting your body against infection and are a part of the immune system.
+                    If you are suffering from a throat infection, these nodes have the tendency to swell up, as they try to combat the infection-causing germs.\n"
+                        Mucus:At times, you may feel the presence of a lump in your throat, which is actually an accumulation of excess mucus.
+                    While this is not exactly a major problem, it could lead to a sore throat or an infection.\n
+                        Abnormal Growth: A tumor can develop in any part of the body, including the throat.
+                    Some of these tumors are benign, but in other cases, a lump in the throat could actually be a symptom of throat cancer,
+                    which is a major cause for concern and should be treated without any delay.\n
+                        Enlarged Thyroid: In case your thyroid gland is enlarged, it could mean that your body is producing too many hormones,
+                    which causes the organ to grow more than normal. This may also be evident in the form of a lump on the thyroid gland,
+                    which presses on to the throat as well as the esophagus.\n"</item>
+
+        <item>"There are two types of stroke.\n
+                      Ischemic stroke is similar to a heart attack, except it occurs in the blood vessels of the brain. Clots can form in the brain's blood
+                    vessels, in blood vessels leading to the brain, or even in blood vessels elsewhere in the body and then travel to the brain.
+                      These clots block blood flow to the brain's cells. Ischemic stroke can also occur when too much plaque (fatty deposits and cholesterol)
+                    clogs the brain's blood vessels. About 80% of all strokes are ischemic.\n
+                      Hemorrhagic (heh-more-raj-ik) strokes occur when a blood vessel in the brain breaks or ruptures. The result is blood seeping into the
+                    brain tissue, causing damage to brain cells. The most common causes of hemorrhagic stroke are high blood pressure and brain aneurysms.
+                      An aneurysm is a weakness or thinness in the blood vessel wall.\n"</item>
+
+        <item>"Fingertip injuries can occur in accidents at home, work, or play. An injury can involve a sharp cut, a crushing injury,
+                     a tearing injury, or a combination of these injury types.\n" +
+                    An injury or amputation can damage any part of the fingertip, including the:\n"</item>
+
+        <item>"Usually, diarrhea is caused by a virus that infects your gut. Some people call it \"intestinal flu\" or \"stomach flu.\n
+                    Other causes include:\n
+                    \n
+                    * Alcohol abuse\n
+                    * Allergies to certain foods\n
+                    * Diabetes\n
+                    * Diseases of the intestines (such as Crohn's disease or ulcerative colitis)\n
+                    * Eating foods that upset the digestive system\n
+                    * Infection by bacteria (the cause of most types of food poisoning) or other organisms\n
+                    * Laxative abuse\n
+                    * Medications\n
+                    * Overactive thyroid (hyperthyroidism)\n
+                    * Radiation therapy\n
+                    * Running (Some people get “runner’s diarrhea” for reasons that aren’t clear)\n
+                    * Some cancers\n
+                    * Surgery on your digestive system\n
+                    * Trouble absorbing certain nutrients, also called “malabsorption”\n
+                    Diarrhea may also follow constipation, especially for people who have irritable bowel syndrome.\n"</item>
+
+        <item>"The most common causes of drowning include:\n
+                   * An inability to swim\n
+                   * Panic in the water\n
+                   * Leaving children unattended near bodies of water\n
+                   * Leaving babies unattended, even for a short period of time, in bath tubs\n
+                   * Falling through thin ice\n
+                   * Alcohol consumption while swimming or on a boat\n
+                   * Concussion, seizure, or heart attack while in water\n
+                   * Suicide attempt\n"</item>
+
+        <item>"As humans are far too large for a venomous snake to eat, nearly all snake bites occur when somebody provokes a snake into acting in
+            self-defence.\n"
+                    "\n"
+                    "In many cases, provocation occurs by accident, for example, when a person accidentally steps on
+            a snake while out walking. However, sometimes snake bites occur as a result of someone deliberately provoking a snake by:\n"
+                    "\n"
+                    "    kicking it\n"
+                    "    striking it\n"
+                    "    trying to pick it up.\n"</item>
+    </string-array>
+
+    <string-array name="primaryTreatmentSymptoms">
+        <item>
+            "*Sweating\n"
+            "* Shivering\n"
+            "* Headache\n"
+            "* Muscle aches\n"
+            "* Dehydration\n"
+            "* General weakness\n"
+
+        </item>
+
+        <item>" Mood changes, from depression to euphoria.\n"
+                    "* Increased thirst and urination.\n"
+                    "* Visual phenomena, such as seeing various shapes, bright spots or flashes of light.\n"
+                    "* Weakness or numbness in the face or one side of the body.\n"
+                    "* Pain on one side or both sides of your head.\n"
+                    "* Nausea and vomiting.\n"
+                    "* Blurred vision.\n"
+                    "* Lightheadedness, sometimes followed by fainting.\n"
+                    "* Pain that feels throbbing or pulsing\n"</item>
+
+        <item>"Symptoms that may indicate that unconsciousness is about to occur include:\n"
+                    "\n"
+                    "* Sudden inability to respond\n"
+                    "* Slurred speech\n"
+                    "* A rapid heartbeat\n"
+                    "* Confusion\n"
+                    "* Dizziness or lightheadedness\n"</item>
+
+        <item>"Some of the other symptoms that you may notice in this case include:\n"
+                    "\n"
+                    "* Wheezing\n"
+                    "* Gagging\n"
+                    "* Vomiting\n"
+                    "* Pain in the throat, chest or abdominal area\n"
+                    "* High pitched breathing\n"
+                    "* Drooling \n"
+                    "\n"
+                    "In case of a tumor or a lump in the throat, the symptoms are a lot more severe.
+            At times, the abnormal growth could obstruct the airways or the esophagus, which is quite a serious problem.
+            Therefore, it is essential to consult a doctor in case you notice any of these symptoms:\n"
+                    "\n"
+                    "* Breathing difficulties, where it feels like the airways are blocked or obstructed\n"
+                    "* Severe discomfort while swallowing, or even sipping liquids\n"
+                    "* The appearance of a physical lump, without any pain or throat infection\n"
+                    "* Presence of an infection in the throat, which lasts for more than two weeks\n"
+                    "* Persistent symptoms, in spite of using antibiotics or other medication\n"
+                    "* Purplish or bluish tint in the face, because of a lack of oxygen\n"</item>
+
+        <item>"The most common symptoms of a stroke are:\n"
+                    "\n"
+                    "* Weakness or numbness of the face, arm, or leg on one side of the body\n"
+                    "* Loss of vision or dimming (like a curtain falling) in one or both eyes\n"
+                    "* Loss of speech, difficulty talking, or understanding what others are saying\n"
+                    "* Sudden, severe headache with no known cause\n"
+                    "* Loss of balance or unstable walking, usually combined with another symptom\n"</item>
+
+        <item>" Skin and soft tissue\n"
+                    "* Fingertip bone (distal phalanx)\n"
+                    "* Nail and underlying nailbed\n"</item>
+
+        <item>"You may have:\n"
+                    "\n"
+                    "* Bloating in your belly\n"
+                    "* Cramps\n"
+                    "* Thin or loose stools\n"
+                    "* Watery stools\n"
+                    "* An urgent feeling that you need to have a bowel movement\n"
+                    "* Nausea and throwing up\n"
+                    "\n"
+                    "More serious symptoms include:\n"
+                    "\n"
+                    "* Blood or mucus in your stool\n"
+                    "* Weight loss\n"
+                    "* Fever\n"
+                    "\n"
+                    "If you have watery stools more than three times a day and you're not drinking enough fluids,"
+                    " you could become dehydrated. That can cause serious complications if it's not treated.\n"</item>
+
+        <item>"Someone who has nearly drowned may be unresponsive. Other symptoms include:\n"
+                    "\n"
+                    "* Cold or bluish skin\n"
+                    "* Abdominal swelling\n"
+                    "* Chest pain\n"
+                    "* Cough\n"
+                    "* Shortness or lack of breath\n"
+                    "* Vomiting\n"</item>
+
+        <item>"To identify a snake bite, consider the following general symptoms:\n"
+                    "\n"
+                    "* Two puncture wounds\n"
+                    "* Swelling and redness around the wounds\n"
+                    "* Pain at the bite site\n"
+                    "* Difficulty breathing\n"
+                    "* Vomiting and nausea\n"
+                    "* Blurred vision\n"
+                    "* Sweating and salivating\n"
+                    "* Numbness in the face and limbs\n"
+                    "\n"
+                    "Some venomous snakes also cause symptoms specific to their type\n"</item>
+    </string-array>
+
+    <string-array name="primaryTreatmentToDo">
+        <item>"* Remove all the body clothes completely. All clothes of children should be kept open until the fever is reduced.\n"
+        "* If the fever does not damage the open air or the wind. Rather, open air helps reduce fever.\n"
+        "* Fever should be consumed with lots of water, juice or other fluids. Eating cold water should be given to eat.\n"
+        "* If possible, find out the cause of fever and treat it.\n"
+        "* When fever is very high (above 102 degrees Fahra), it should be reduced immediately.\n"
+        "* If you're uncomfortable, take acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin IB, others) or aspirin.\n"
+        "Read the label carefully for proper dosage, and be careful not to take more than one medication containing acetaminophen,"
+        " such as some cough and cold medicines. Call the doctor if the fever doesn't respond to the medication, "
+        "is consistently 103 F (39.4 C) or higher, or lasts longer than three days.\n"
+        "* If possible, consult a doctor.\n"</item>
+
+        <item>"* Those who have this disease must sleep at least 8 hours daily.\n"
+        "* Avoid coffee, chocolate, cheese, soft drinks, alcohol.\n"
+        "* Create a consistent daily schedule. Establish a daily routine with regular sleep patterns and regular meals. "
+        "In addition, try to control stress.\n"
+        "* Regular aerobic exercise reduces tension and can help prevent migraines.\n"
+        "* If you are a woman who has migraines and estrogen seems to trigger or make your headaches worse, "
+        "you may want to avoid or reduce the medications you take that contain estrogen.\n"
+        "* Do not work in extra or low light.\n"
+        "* Avoid dark sunshine or severe cold.\n"
+        "* Avoid Long-term and noisy environment.\n"
+        "* Receive food at regular times.\n"</item>
+
+        <item>"If you see a person who has become unconscious, take these steps:\n"
+        "\n"
+        "* Check whether the person is breathing. If they are not breathing, have someone call hospital immediately.
+        "* If they are breathing, position the person on their back.\n"
+        "* Raise the person’s legs at least 12 inches above the ground.\n"
+        "* Loosen any restrictive clothing or belts. If the person doesn’t regain consciousness within one minute, go to hospital.\n"
+        "* Check the person’s airway to make sure there’s no obstruction.\n"
+        "* Check again to see if the person is breathing, coughing, or moving. These are signs of positive circulation. If these signs are absent, "
+        "perform cardiopulmonary resuscitation (CPR) until emergency personnel arrive.\n"</item>
+
+        <item>"Some of the common home remedies for throat obstruction mainly caused by hard objects stuck in the throat or excess mucus:\n"
+        "\n"
+        "* Drink a lot of warm fluids, especially hot water, during the day. However, avoid hot coffee, tea or any beverage that contains alcohol. "
+        "Green tea and soup can help dilute the mucus and relieve the symptoms of a throat obstruction.\n"
+        "* Prepare a decoction from root of clematis herb, brown sugar as well as vinegar. Consume this slowly, preferably while it is warm.\n"
+        "* Crack a raw egg into a cup and drink the entire thing in one gulp. This helps dislodge the obstruction, "
+        "which then gets flushed out by the body\n"
+        "* Swallow a large ball of rice that is sticky in consistency. The amount of rice should be large enough to dislodge any obstruction,"
+        " even though it may be a bit difficult to do so.\n"
+        "* Chew and swallow a large piece of bread (preferably an entire slice, without the sides) to which a coat of peanut butter has
+            been applied.\n"
+        "* Bite off a large piece of banana and just hold it in your mouth for a minute or two, without chewing it."
+        "* This will moisten the piece of banana, which you then need to swallow as a whole.\n"</item>
+
+        <item>"Immediately try to go to hospital if you or someone you know has symptoms of a stroke. Stroke is a medical emergency.
+            Immediate treatment can save your life or increase your chances of a full recovery.\n"
+        "\n"
+        "Up to 50% of all strokes are preventable. Many risk factors can be controlled before they cause problems.\n"</item>
+
+        <item>"If you have injured your finger, do the following as you are preparing to see your doctor:\n"
+        "\n"
+        "* Clean the injury, if possible, and cover it with a lightly compressive sterile dressing to
+            minimize bleeding and protect the injured finger.\n"
+        "* Elevate the injured hand to minimize swelling.\n"
+        "* Immobilize the affected hand and wrist with a short splint.\n"
+        "\n" +
+        " If your fingertip is completely cut off, do the following:\n"
+        "\n" +
+        "* Gently clean the amputated part with water or, if possible, with sterile saline solution.\n"
+        "* Cover it in a moistened gauze wrap.\n"
+        "* Place it in a watertight bag.\n"
+        "* Place the bag on ice in a sealed container or another watertight bag.\n"
+        "* Do not allow the amputated part to be in direct contact with ice. You could damage it further.\n"
+        "\n"
+        "* Bring the amputated part with you to the emergency room and maintain control over it until the doctor is able to evaluate you.\n"</item>
+
+        <item>"\n"
+        "Treating Dehydration\n"
+        "\n"
+        "1. Take Fluids\n"
+        "\n"
+        "* Ask your doctor what fluids are best for you or your child. Here are some basic tips:\n"
+        "* Give an adult plenty of clear fluid, like fruit juices, soda, sports drinks and clear broth.
+            Avoid milk or milk-based products, alcohol, apple juice, and caffeine while you have diarrhea and for 3 to 5
+            days after you get better. They may make diarrhea worse.\n"
+        "* Give a child or infant frequent sips of a rehydration solution such as Pedialyte, CeraLyte, or Infalyte.
+            Do not add salt tablets to a baby’s bottle.\n"
+        "* Make sure the person drinks more fluids than they are losing through diarrhea. If they are unable to keep
+            up with their losses, call a doctor.\n"
+        "\n"
+        "2. Rest\n"
+        "\n"
+        "* Have the person rest as needed and avoid strenuous exercise. Keep a sick child home from school or day care.\n"
+        "\n"
+        "3. Ease Into Eating \n"
+        "\n"
+        "* Feed an infant or child easily digested foods; the BRAT diet (bananas, rice, applesauce, and toast) is a good choice as soon as they can tolerate food.\n"
+        "* For an adult, add semisolid and low-fiber foods gradually as diarrhea stops. Avoid spicy, greasy, or fatty foods.\n"
+        "\n"
+        "3. When to Call a Doctor\n"
+        "\n"
+        "* Call a doctor right away if:\n"
+        "* You suspect that you or your child is dehydrated.\n"
+        "* An infant 3 months old or younger has vomiting or diarrhea.\n"
+        "* There is blood or mucus in the stool, or the stool is black.\n"
+        "* You think the person needs over-the-counter diarrhea medication; some kinds of diarrhea can get worse with anti-diarrheal medications.\n"
+        "* You think the person has traveler’s diarrhea or drank contaminated water.\n"
+        "* The person is taking an antibiotic that may be causing the diarrhea.\n"
+        "* There is stomach pain that is not relieved by having a bowel movement.\n"
+        "* There is any fever.\n" +
+        "* The person is losing more fluid in his stool than he can replace by drinking fluids.\n"
+        "\n"
+        "Follow-Up\n"
+        "\n"
+        "Also seek medical attention if:\n"
+        "\n"
+        "* You or your child has any other medical problems and has diarrhea.\n"
+        "* Diarrhea in an adult worsens or doesn’t clear up after 2 or 3 days\n"
+        "* A child doesn’t feel better after 24 hours\n"</item>
+
+        <item>"  Someone is drowning\n"
+        "\n"
+        "1. Get Help\n"
+        "\n"
+        "    Notify a lifeguard, if one is close.\n"
+        "\n"
+        "    If you are alone, follow the steps below.\n"
+        "\n"
+        "2. Move the Person\n"
+        "\n"
+        "    Take the person out of the water.\n"
+        "\n"
+        "3. Check for Breathing\n"
+        "\n"
+        "    Place your ear next to the person's mouth and nose. Do you feel air on your cheek?\n"
+        "\n"
+        "    Look to see if the person's chest is moving.\n"
+        "\n"
+        "4. If the Person is Not Breathing, Check Pulse\n"
+        "\n"
+        "    Check the person's pulse for 10 seconds.\n"
+        "\n"
+        "5. If There is No Pulse, Start CPR\n"
+        "\n"
+        "Carefully place person on back.\n"
+        "\n"
+        "    For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone.\n"
+        "\n"
+        "    For an adult or child, press down about 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone.\n"
+        "    Do 30 chest compressions, at the rate of 100 per minute or more. Let the chest rise completely between pushes.\n"
+        "    Check to see if the person has started breathing.\n"
+        "Note that these instructions are not meant to replace CPR training. Classes are available through the American Red Cross, local hospitals, and other organizations.\n"
+        "6. Repeat if Person Is Still Not Breathing\n"
+        "    If you've been trained in CPR, you can now open the airway by tilting the head back and lifting the chin.\n"
+        "    Pinch the nose of the victim closed. Take a normal breath, cover the victim's mouth with yours to create an airtight seal, and then give 2 one-second breaths as you watch for the chest to rise.\n"
+        "    Give 2 breaths followed by 30 chest compressions.\n"
+        "    Continue this cycle of 30 compressions and 2 breaths until the person starts breathing or emergency help arrives.\n"</item>
+
+        <item>"First aid for snake bites\n"
+        "* Should you be bitten by a snake, it’s essential to get emergency treatment as quickly as possible.\n"
+        "However, there are some tips that you should also keep in mind:\n"
+        "\n"
+        "* Note the time of the bite.\n"
+        "* Keep calm and still as movement can cause the venom to travel more quickly through the body.\n"
+        "* Remove constricting clothing or jewelry because the area surrounding the bite will likely swell.\n"
+        "* Don’t allow the victim to walk. Carry or transport them by vehicle.\n"
+        "* Do not kill or handle the snake. Take a picture if you can but don’t waste time hunting it down.\n"
+        "\n"
+        "First aid myths\n"
+        "\n"
+        "There are also several outdated first aid techniques that are now believed to be unhelpful or even harmful: \n"
+        "\n"
+        "* Do not use a tourniquet.\n"
+        "* Do not cut into the snake bite.\n"
+        "* Do not use a cold compress on the bite.\n"
+        "* Do not give the person any medications unless directed by a doctor.\n"
+        "* Do not raise the area of the bite above the victim’s heart.\n"
+        "* Do not attempt to suck the venom out by mouth.\n"
+        "* Do not use a pump suction device. These devices were formerly recommended for pumping out snake venom, but it's now believed that they are more likely to do harm than good.\n"</item>
+
+    </string-array>
+
+
+    <string-array name="foodDetails">
+
+        <item>"During pregnancy, you need to pay special attention to your diet. The foods you eat must be nutritious to give your baby the best fuel for proper development. They should also provide the nutrients your body needs to carry your baby to full term. In order to provide an optimum diet for you and your baby over these nine months, you should understand the foods that will be best for you and also the ways to create a well balanced diet.\n"
+            "\nIn order to satisfy your dietary needs, it’s important to eat foods from every food group each day. These include dairy, eggs, fruits and vegetables, meat, foods containing carbohydrates and fats and at least a few servings of fish every week.\n"
+            "\nYou should aim to include approximately 15 percent of your total calories from lean protein, 55 percent from carbohydrates and no more than 30 percent from (healthy) fats.\n"
+            "\nIt’s important to realize that even though a large percentage of total calories is coming from carbohydrates, it is the complex carbohydrates that should be eaten, as they take longer to digest and help to regulate your blood sugar levels. Simple carbohydrates are easily digested and may give you a spike of energy, but they will also increase your blood sugar.\n"
+            "\nThe best carbs to eat are complex carbs, such as whole grain cereals, breads, pastas, spinach, wild and brown rice, broccoli, celery, cucumber, cauliflower and soy milk to name a few. This is only the tip of the iceberg when it comes to all the delicious foods you can eat from this food group.\n"
+            "\nLean protein is also important in your pregnancy diet. Examples of lean protein include lean meat, fish, soy products and legumes.\n"
+            "\nWhen choosing your food, it’s important to pay attention to the type of fat it contains. Healthy fats include olive oil (and other similar oils), nuts, fish (they contain omega 3s), avocados and tofu.\n"
+            "\nIt’s easy to see a pattern among the healthy foods you should be consuming – they are the foods that are close to their natural state, the way nature intended them to be.\n"
+            "\nIn addition to the foods mentioned above, you need to eat a wide variety of fruits and vegetables every day. It’s also important to be sure that you include high-fiber foods in your diet and drink plenty of water. All of these factors will contribute not only to a healthy pregnancy but also to a healthy mother and baby.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>
+            "While it’s important to know what you should be eating during pregnancy, it’s equally important to know what you should not be putting in your body.\n"
+            "\nYou should avoid the unhealthy fats, which include the trans-fats and the saturated fats. Avoid them as they raise cholesterol levels and the risk of certain diseases. They also contribute to unnecessary weight gain and can make you feel sluggish as your body struggles to digest them. These types of fats can be found in many processed foods, fast foods and deep-fried foods and are even hidden in many foods that you might not even suspect. Read labels when you’re shopping and learn to identify those foods that contain these unhealthy fats.\n"
+            "\nSome people believe that all carbs are bad, but this is not the case. Complex carbs are good for you. The carbs that should be avoided are simple carbs, as they are easily digested and raise your blood sugar levels. Simple carbs include white bread and pastas, sugar, cake, candy, soda pop, anything made with white flour, syrup, and even fruit juice.\n"
+            "\nFoods that are high in vitamin A should also be avoided during pregnancy.Too much of this vitamin can be harmful to your developing baby, resulting in miscarriage or even birth defects. The main culprit in this category of this food is liver.\n"
+            "\nUncooked eggs should not be eaten, which means those soft yolks are a thing of the past until after delivery. Raw eggs may contain salmonella, implying you also need to avoid raw cake batter or cookie dough.\n"
+            "\nRaw meat should not be eaten either, so be sure to cook your meat properly. Uncooked meat can contain salmonella bacteria or toxoplasma.\n"
+            "\nSoft cheeses such as brie or camembert should not be eaten unless they are heated until they are bubbling hot inside. This will help to destroy any harmful bacteria.\n"
+            "\nThere has been a lot of debate over fish and mercury. The best way to avoid ingesting mercury when you eat fish is to be aware of the types of fish that are more likely to contain it and avoid them. These include but are not limited to: sword fish, tilefish and shark.\n"
+            "\nIn addition to the foods you must avoid, there are beverages as well that should be avoided or taken in limited amounts such as caffeinated drinks. Certain herbal teas can be harmful and most women know to avoid alcohol.\n""\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>
+            "During pregnancy most women take a prenatal vitamin supplements as it can be difficult to get the required vitamins and minerals from their diet, especially if morning sickness and nausea have interrupted regular eating habits.\n"
+            "\nIf your pregnancy was planned, you may already be familiar with folic acid, an important B vitamin that can help prevent neural tube defects, cleft lip and cleft palate. For this reason it is recommended to take folic acid for several months before conception and also during the first three months of pregnancy. You can also get folic acid by eating various foods such as green vegetables, orange juice, rice, peas, and lentils.\n"
+            "\nBecause your body will be producing more blood during pregnancy, an extra three or four pounds to be exact, it’s important to ensure you are getting enough iron in your diet. Iron absorption can be decreased by drinking coffee or tea, but is enhanced by vitamin C, so it is best taken with fresh orange juice.\n"
+            "\nIf your prenatal vitamin supplement does not have the required amount, ask your doctor about an iron supplement. Good food sources of iron include spinach, broccoli, strawberries and even wholegrain breads.\n"
+            "\nCalcium is another important element of your pregnancy diet. It is required not only to maintain your own bone density, but also to provide for the development of your baby’s bones and teeth. A proper diet will provide most if not all of the calcium, but prenatal vitamins make up for any short-falls in the needed amounts.\n""
+            "\nOther reasons for which calcium is required are: it helps to prevent high blood pressure; it’s required for blood clotting, for muscle contractions and even for nerve signal transmission. Food sources of calcium include milk and other dairy products, tofu, leafy vegetables and fish such as sardines and salmon.\n"
+            "\nZinc is also important in your pregnancy diet, as it is needed for cellular replication and to help ensure a healthy birth weight of your baby. Most diets contain enough zinc, which is found in eggs, corn, peas, meat and seafood.\n"
+            "\nThe other important vitamins in your pregnancy diet include vitamins A (which will come from your diet but do not eat liver or pate), B, C, D, and E (which will come from your healthy diet and your prenatal vitamins).\n"
+            "\nMagnesium, which is needed to balance hormones and to help in the absorption of some vitamins, is important, as is selenium and phosphorus.\n\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>
+            "\nBelieving in the old pregnancy myth ‘you’re eating for two,’ many women think they can double up their food intake and all the extra weight they gain as a result will fall off after pregnancy. However, this isn’t the case. Before pregnancy, you should be consuming approximately 2000 calories per day depending on your weight and activity level. During pregnancy the calorie intake should increase by only about 300 calories per day.\n"
+            "\nThe extra calories provide energy and nutrients for your baby. They are also required for the growth of the placenta, increase in blood volume, and formation of amniotic fluid. They are also needed to supply your body with the extra energy required to perform all the extra functions of pregnancy.\n"
+            "\nA woman who is overweight at the beginning of her pregnancy should still consume the extra calories unless her doctor advises her otherwise. Pregnancy is not the time to diet, as the process of burning fat creates ketones, which can be dangerous to your baby. However, often women who start out overweight do lose some of it if they adapt a healthy lifestyle, including a diet high in fiber, fruits and vegetables and lean protein and low in bad fats. These women will find that losing weight after the baby is born will be easier if they have spent the nine months becoming healthy and getting in better shape.\n"
+            "\nA woman who is underweight will probably be encouraged to gain extra weight, that is, she will be advised to consume more than the recommended 300 extra calories. This might be necessary to allow her to have a healthy pregnancy and to be able to support the proper growth and development of her baby.\n"
+            "\nWhile you may have been used to three meals a day before pregnancy, you may find it beneficial to eat 6 smaller meals throughout the day. This doesn’t mean eating six regular meals, but more like 3 smaller meals and 3 healthy snacks. This helps not only to regulate your blood sugar levels, but also to easily digest your food.\n"
+            "\nSmaller meals are also helpful for women who suffer from morning sickness as they cause less strain on their digestive system at any one time. Women suffering from constipation are also benefitted by having smaller meals.\n"
+            "\nIf morning sickness is severe, and you don’t have enough food staying down, it’s important to talk to your doctor to avoid complications during pregnancy. Severe vomiting should always be reported to your doctor right away.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+       </item>
+
+        <item>
+            "The amount of weight that you should gain during your pregnancy depends partly on the weight that you started out with. Whether you are having one baby, or two or multiple babies will also play a factor in determining your optimum weight gain over the nine months of your pregnancy. This will be something you will discuss with your doctor early on in your pregnancy.\n"
+            "\nAn underweight woman will need to gain more weight to support her pregnancy and her baby’s needs, while an overweight woman will likely not need to gain quite as much. A woman who starts her pregnancy at a normal weight for her height and build will still need to gain an ideal amount of weight.\n"
+            "\nA woman who is underweight at the beginning of her pregnancy will need to gain, on average, between 28 and 40 pounds (13 and 18 kilos) during her pregnancy. A woman who starts her pregnancy at a normal weight will need to gain between 25 and 35 pounds (11 and 16 kilos), while an overweight woman will only need to gain between 15 and 25 pounds (7 and 11 kilos). A woman who is expecting twins can gain between 35 to 45 pounds (16 and 20 kilos). All these values are based on your starting weight and should be discussed with your doctor.\n"
+            "\nThe usual weight gain is about 2 to 4 pounds (1-2 kilos) each month in your first trimester and about 1 pound each week after that. A twin pregnancy will result in an average gain of 1.5 pounds each week after the first trimester.\n"
+            "\nIt may seem like a lot of extra weight, but when you see the way it is broken down, you’ll realize that much of this weight is for temporary and necessary pregnancy requirements and not just fat, which makes up only a fraction of your total gain. Keep in mind that these are averages, and your baby may weigh more or less than this.\n"
+            "\nYour baby will weigh between 7 and 8 pounds at birth. Both the placenta and amniotic fluid will weigh between 2 and 3 pounds each. The increase in your breast tissue will account for another 2 to 3 pounds and the extra blood in your circulatory system will weigh about 4 pounds. This leaves only 5 to 9 pounds for fat stores and 2 to 5 pounds for your uterus.\n"
+            "\nIf you’re having twins the weight of your babies will be slightly more, about 12 to 14 pounds and there will be a slight increase in the weight of other components as well.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+    </string-array>
+
+
+    <string-array name="exerciseDetails">
+        <item>
+            "Exercise during pregnancy has many benefits. However, before you begin an exercise routine, especially if you did not exercise regularly before you became pregnant, you should consult your doctor. If you have been exercising regularly before, you should be able to continue, but you may have to modify your routine to avoid any complications. Hence, it’s always wise to discuss your activities with your doctor or midwife to determine what is safe and what is not.\n"
+            "Pregnancy exercises can include pregnancy yoga, walking, pregnancy Pilates, swimming and many sports activities that do not put you at risk for contact injuries or over-exertion.\n"
+            "Some tips to keep you on the right track include:\n\n"
+            "1.It’s always a good idea to warm up before you begin stretching out your muscles and make sure that you are hydrated. Remember to have a cool down period after the exercise.\n"
+            "2.You should participate in some form of physical activity each day, even if it includes only a walk. The benefits are numerous.\n"
+            "3.During hot weather, avoid doing strenuous exercises. Don’t overdo and remember that if you can’t talk normally during exercise, then you are doing too much.\n"
+            "4.Stay hydrated; your body needs to have proper fluid levels to maintain the health of both you and your baby.\n"
+            "5.If you sign up for a pregnancy yoga class or a pregnancy Pilates class, be sure that the instructors have been trained to work with pregnant women.\n"
+            "6.One of the best exercises that you can do during pregnancy is swimming, especially as your pregnancy progresses and your belly grows larger. Swimming can help relieve stress and give you the feeling of weightlessness.\n"
+            "Listen to your doctor and be sure that he approves your exercise routine before you begin.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+       </item>
+
+
+        <item>
+             "There are many valid reasons that make exercise an important part of pregnancy. One of the most important reasons is that exercise helps you maintain a general feeling of wellbeing and happiness. Exercise releases endorphins, hormones that will not only boost your immune system, but also make you feel happy. Going for a walk every day can help to relieve some of the mood swings that are normally present during pregnancy.\n"
+            "Exercising during pregnancy will help to increase strength and endurance, both of which will be much needed during labor and delivery. It will also develop and strengthen muscles that will help to support the added weight you will be carrying as your baby grows, and will therefore reduce the chance of developing lower back pain. As your belly grows, your posture may become compromised, but because your body will be in better shape, the effects will be minimized.\n"
+            "When you combine exercise and proper water intake, you greatly reduce the chances of developing constipation, hemorrhoids and varicose veins and it even helps to battle fatigue. Another issue that can be reduced or avoided is poor circulation. During pregnancy it’s even more important to ensure that blood has the ability to flow through your system, so as to supply your baby with nutrients and oxygen.\n"
+            "Many exercises have been developed to target specific areas that need special attention during pregnancy to support and tone your changing body. Joining a class is a great way to learn them and their benefits.\n"
+            "Pregnant women who join exercise classes have the added benefit of meeting other pregnant women, sharing their experiences and making new friends.\n"
+            "Exercise during pregnancy will also help you after delivery, making it easier to lose those extra pounds that were necessary during pregnancy to support the entire process of bringing your little one into the world.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>
+            "While many exercises are safe during pregnancy, there are others that need to be avoided. Some of these carry the risk of falling or contact injury, some carry risks due to certain positions and some are simply unsafe.\n"
+            "\nIt’s important to avoid:\n"
+            "* Lying on your back during exercise, as this places pressure on the large blood vessels in your back and can interfere with proper blood flow\n"
+            "* Contact sports such as boxing, football, squash and judo\n"
+            "* Scuba diving, as there is no protection against decompression and this can result in the formation of gas bubbles in the blood\n"
+            "* Sports that have the risk of falling such as horseback riding, hockey, gymnastics and even cycling\n"
+            "* High impact exercises that strain ligaments and joints\n"
+            "* Certain yoga positions\n"
+            "* Water skiing is not recommended due to risk of abdominal injuries\n"
+            "* Downhill skiing should be avoided; however, cross-country skiing can still be enjoyed\n"
+            "The risk of developing strains increases during pregnancy, as your body produces relaxin, a hormone that loosens your ligaments and joints to prepare for birth.\n"
+            "When you exercise, it’s important to wear a supportive and comfortable bra to properly support your growing breasts. Try to choose bras made of cotton as they have the tendency to absorb sweat. Very tight clothes may also be uncomfortable, hence should be avoided.\n"
+            "During exercise you need to ensure that you are drinking enough water and if at any point you begin to feel dizzy, nauseous or short of breath, stop doing the exercise.\n"
+            "Too much exercise can lead to a low birth weight baby, so it’s important not to overdo it and to discuss your exercise frequency and duration with your doctor.\n"
+            "For some women it is not advisable to exercise due to certain risk factors, which can be harmful. Some of these are:\n"
+
+            "Previous miscarriage\n"
+            "Severe anemia\n"
+            "High blood pressure\n"
+            "Preeclampsia\n"
+            "Cervical weakness\n"
+            "Vaginal bleeding\n"
+            "Heart or lung disease\n"
+            "Low-lying placenta\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>"There are many activities that you can do to get exercise, which don’t necessarily involve going to a gym or a pregnancy class, although they do have benefits (such as social interaction and guided exercise by qualified professionals). Not everyone will enjoy those organized exercise routines, so it’s a good idea to make a list of all the fun things you enjoy that require some form of physical activity.\n"
+            "\nWalking – If you have other children, going for a walk with them to the park is a good way to get out of the house and get some exercise. It’s also a relaxing way to spend some time with your partner- holding hands, talking and just strolling along with no destination in mind.\n\n"
+            "\nDancing – Whether you decide to drag your partner to a dance class, or just turn on your favourite music at home, dancing is a great way to get your heart pumping, release endorphins and enjoy yourself. You might even try to spend an evening out with your partner – dinner and dancing – another great way to spend time together.\n"
+            "\nSwimming – Swimming is a very relaxing way to cool off in the warm weather, reduce muscle aches and pains and get some exercise. Water produces natural resistance, so even if you choose to just gently move about the pool, you’ll be getting exercise.\n"
+            "\nWhatever you choose to do - participate in some form of regular activity – your body will thank you for that.\n"
+            "\nThis information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+       </item>
+
+        <item>
+            "One exercise you can incorporate into your regular daily exercise routine while you’re pregnant is pelvic floor exercises. One of the beautiful things about these exercises is that nobody but you will know that you’re doing them. This means that you can do them while sitting at your desk, while standing in line at the bank, while lying in bed next to your partner, or while watching TV.\n"
+            "Many women don’t realize how important these pelvic floor exercises are (whether pregnant or not!) until it’s too late – they sneeze (or cough, or laugh) and experience a little urine leakage.\n"
+            "Your pelvic floor muscles are important because they support not only your bladder and bowels, but also your uterus. By doing pelvic floor exercises, you help to keep these muscles strong, so you can avoid incontinence both during pregnancy and after delivery.\n"
+            "There are other reasons to do these exercises not only during pregnancy but also after delivery and for the rest of your life. A weak pelvic floor can result in less satisfying sex, which is not going to make you a happy woman.\n"
+            "The problems of a weak pelvic floor can get worse with subsequent pregnancies, even resulting in a sagging uterus that will push against your vaginal walls.\n"
+            "How to do Kegel (Pelvic floor) exercises\n"
+            "The recommended frequency of doing these exercises is 8 repetitions, 3 times a day.\n"
+            "To begin:\n"
+            "Tighten the muscles you normally use to stop urine flow (in three stopping motions until tight)\n"
+            "Hold this position for several seconds, then let your muscles relax\n"
+            "Tighten the muscles again, faster this time, hold for several seconds, then release\n"
+            "Repeat until you have done eight reps\n"
+            "It’s important to remember that while you are doing these exercises you need to avoid holding your breath, tightening your butt, tilting your pelvis, squeezing your legs together or sucking in your stomach. If you have any questions about how best to do Kegel exercises, you can ask your doctor or midwife for additional guidance or contact a physical therapist for more information.\n"
+            "Pelvic floor (Kegel) exercises work best as part of an overall fitness routine. Women who exercise regularly – in addition to practicing Kegel exercises – seem to have an easier time giving birth and a quicker recovery afterwards. Experts recommend 30 minutes per day of moderate exercise during pregnancy.\n"
+            "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"</item>
+    </string-array>
+
+    <string-array name="labourDetails">
+
+        <item>
+        "As you come to the end of your pregnancy and prepare to meet your new baby, there are several ways to help you prepare for the big day. Preparation includes preparing by your partner too, making sure that both of you have a plan in place once you’ve gone into labor.\n"
+        "By now you would have probably packed your maternity bag with all the essentials required for labor and your partner would have packed his own bag as well. Knowing the signs of labor is another important step in your preparation, so you’ll know when to call your doctor or midwife, or when to go the hospital (if your plan is to give birth there).\n"
+        "You’ll need to have a plan in place for any other children you have in your home - either a babysitter or a family member who can reach your home quickly and take care of your children in your absence, or a place for your children to stay while you’re in the hospital.\n"
+        "Your nursery should be equipped with the necessary items once you bring your baby home and you should already have a car seat safely installed in your car. Your baby will also need a bag for the hospital that should carry an outfit to wear while going home, nappies / diapers, wipes, and a few feeding bottles in case you intend to bottle feed.\n"
+        "In addition to your maternity bag, you’ll need a bag for going home containing: sanitary pads, breast pads, clothes (remember you won’t be back to your pre-pregnancy weight right away, so bring clothes that will fit no matter what).\n"
+        "The better prepared you are, the more relaxed you will be once labor starts.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>
+            "Knowing the signs of labor ahead of time will help reduce questions and confusion once labor starts and will help you differentiate between false labor and real labor.\n"
+        "During late pregnancy your baby will get ready for birth by moving into position. The most common is head down with your baby’s back facing outwards but this isn’t always the case. Your baby may even ‘engage’ by moving downwards into your pelvis. This is more common with first babies.\n"
+        "Women tend to have the nesting instinct a few days before labor begins. You’ll want to clean your house as you may likely have a great burst of energy. Remember, this means you’ll be in labor soon, so save some of that energy for the big day.\n"
+        "Some women will also lose a few pounds in the days before labor. Weighing yourself every morning might give you an indication that baby is on its way.\n"
+        "Before labor begins, most women notice a ‘show’, which is the mucus plug leaving your cervix. You may also notice a bit of blood, but heavy bleeding needs to be reported to your doctor right away.\n"
+        "If your water breaks, it’s a good sign of the beginning of labor. It may be only a trickle as opposed to the Hollywood gush.\n"
+        "You may probably notice an increase in Braxton Hicks contractions over the few weeks before labor begins. These contractions differ from real labor because the pain felt is generally in front of your abdomen as opposed to real labor pain, which can be felt in your back and abdomen. Moreover, contractions during real labor come closer together and get stronger with time. Braxton Hicks contractions can come and stop, don’t usually increase in intensity and don’t get closer together.\n"
+        "As long as you have no complications, your doctor will probably advise you to stay at home until your labor has progressed to some extent. Once your contractions are five minutes apart, or your water is broken, or you are bleeding, you’ll need to go to the hospital.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>"The first stage of labor is what most women refer to as ‘being in labor’. During this stage your cervix dilates and thins. This stage of labor is the most painful, as your contractions intensify and come closer together until you are fully dilated. During this stage you will be using all of the techniques you have learned in your birthing classes and will rely on your partner to help you keep focused.\n"
+        "If you choose pain medications, it will be given to you during the first stage of labor. Some medications cannot be given too close to delivery, so your doctor or midwife may not administer certain drugs as you get closer to the pushing stage. Once your cervix is 10cm in diameter, you’re ready to push.\n"
+        "The second stage of labor is when you will be pushing your baby through your birth canal out into the world. You will experience a different kind of contraction during this stage; one that gives you a strong urge to push. During this stage your contractions will be about two to four minutes apart and will last up to ninety seconds. The length of this stage can be very short or it can last up to an hour. It should not last longer than two hours.\n"
+        "During the third stage of labor, you will deliver the placenta. Sometimes an injection is given to speed up this stage, but it is not necessary to have this if you would like to deliver the placenta naturally. It’s not a painful experience, but you may be asked to push a little to help with the delivery.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>
+        "Some of the effective positions which you can try are: standing up; walking around for as long as you can; sitting (using a birthing ball is great for allowing you to rock back and forth); squatting and leaning against a chair, your bed, or even your partner; kneeling down with some form of support; getting down on all fours. Getting down on all fours can offer relief from severe back pain by taking the pressure off your spine.\n"
+        "If none of these positions is comfortable and you find that lying on your back is all you can handle, try to lie on your side with pillows supporting you, the way you did when you tried to sleep these past six months.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>
+        "Learning the proper breathing techniques to be followed during labor can help you in several ways, from staying focused, dealing with contraction pain, helping your labor to progress faster, to even conserving some of your energy for the pushing stage.\n"
+        "During birthing classes you would have been taught some of these techniques, including:\n"
+        "Deep breathing; take a steady and gradual breath in and then let it out.\n"
+        "Breathe in through your nose and let it out through your mouth; count till three while breathing in and do the same as you breathe out.\n"
+        "Panting; quick breaths often help during the pushing stage, giving your vagina a chance to stretch as your baby moves through your birth canal.\n"
+        "Often different breathing techniques are more suitable for certain stages of labor. During early labor it’s best to inhale and exhale slowly during your contractions. During active labor it’s best to inhale through your nose and exhale through your mouth and once contractions become extremely intense, panting through the last bit of each contraction can help you cope with the pain better. During the pushing stage don’t hold your breath during contractions. Take a deep breath in when a contraction comes and exhale slowly as you push.\n"
+        "Practicing these exercises with your partner ahead of time is a great way to prepare for labor. Your partner will be able to guide you during labor to use the proper technique and even breathe with you, giving you something to focus on during extremely intense contractions.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>
+        "Giving birth in the water can be a more relaxing way to have your baby. Being in water can allow you to have more ease of movement and a soothing and relaxing atmosphere. It also provides pressure relief and muscle relaxation, lessens the need for medication and even helps to reduce the pain and anxiety that you may experience during labor.\n"
+        "Some doctors may recommend that you do not soak in a tub if your waters have broken, as there is a risk of infection. A shower can provide some of the same relaxation, although it is not as effective.\n"
+        "It’s important not to soak in a hot tub because you would need to monitor the temperature. If your labor requires constant monitoring, water will interfere with this and you will have to rely on other techniques to support your labor and delivery.\n"
+        "Some women rent larger tubs for the purpose of giving birth, while some use their own bathtub. Water births can be done at home or at a facility or hospital that has the equipment.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+
+        <item>
+        "Some women choose to avoid the use of drugs, medical monitoring or even episiotomies all together. This is done due to many reasons, but generally women choose this route because they want to have the full experience of labor and delivery.\n"
+        "Giving birth this way can be done in natural childbirth centers, hospitals, or sometimes at home and often these births are attended by health care professionals, midwives and doulas. One of the most common methods is Lamaze, which leaves the decision to take medication on the pregnant woman, but encourages the idea that birth is a beautiful and natural process.\n"
+        "The Bradley Method focuses on natural childbirth and the coach (usually your partner) and strongly discourages the use of medication unless it is an absolute necessity.\n"
+        "Women who choose natural childbirth prepare for pain relief by relying on: music, focal points, breathing, meditation, massage, water therapy, imagination and even walking.\n"
+        "Labor and delivery times vary from woman to woman and a natural childbirth may take longer or shorter than an assisted birth. There is no real way to determine the exact duration, but often second labor is of somewhat shorter duration than the first.\n"
+        "This type of birth can be beneficial to your baby as there are no risks associated with medications. You’ll likely be more alert both during and after delivery and you will have no concern about medications passing to your baby through breast milk.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+        </item>
+
+        <item>
+         "Giving birth at home can be a more relaxing experience than giving birth in a medical facility. You’ll feel more relaxed at home in familiar surroundings and will be free to move about for as long as you feel capable.\n"
+        "If this is your second or third child and a previous delivery had complications, then your doctor will likely advise you to have your baby in the hospital, so as to get immediate medical help if a similar situation arises. It’s still your choice, but you should weigh the pros and cons.\n"
+        "Giving birth at home can help a woman feel like she has more control of the situation, which can lead to better pain management.\n"
+        "In addition, many women choose to have their families present during labor and birth; even older siblings participate in the experience of welcoming the newest member of their family.\n"
+        "If you choose to have a home birth, be sure to discuss and plan this with your doctor in great detail beforehand. When home births go wrong, the delay in transferring the mother to the hospital can put both hers and her baby's life at risk.\n"
+        "Even if you choose to have a home birth and change your mind during labor, you can still go to the hospital. It’s always an option.\n"
+        </item>
+
+        <item>
+            "Most women prefer to give birth without undergoing surgery, but in some cases it can’t be avoided. It’s possible in some cases to know ahead of time that you will be going to have a cesarean delivery, especially if you’ve had complications that warrant it. It may also be necessary to perform a cesarean if such issues arise during labor that will make vaginal delivery unsafe for you or your baby.\n"
+            "Reasons for a cesarean birth include: a labor that does not progress in a way it should, signs of premature labor, placenta previa (the placenta is covering part of your cervix), breech presentation of baby, or presence of infection in mother that could spread to her baby (such as Hep C or HIV).\n"
+        "During a cesarean surgery an incision is made through your belly and uterus to allow the doctor to take out your baby. It’s estimated that 25 percent of women in the UK and 32% of women in the US, give birth this way.\n"
+        "If you know in advance that you will be having a cesarean birth, then you’re going to be somewhat more prepared, but if it has to done as an emergency it can be a bit scary. Usually you will be given an epidural or a spinal anesthetic, a method safer than giving general anesthesia. Another benefit of this method is that you will be able to see your baby right after birth.\n"
+        "Babies delivered by cesarean birth do not have the squishy appearance that babies born vaginally do. Usually your partner will be allowed to remain in the operating room and share the experience of birth of your child.\n"
+        "The issue of cesarean delivery on maternal request (elective cesarean) remains extremely controversial, especially when there is no medical indication at all. Fortunately, more and more obstetrician are willing to listen to a women’s request - even if there is no medical indication. Important is that you find out about the pros and cons of a cesarean delivery in advance.\n"
+        "The argument that a scheduled cesarean delivery is more dangerous is unjustified. Excluding emergency cesarean sections, there's no good evidence to show this.\n"
+        "The benefits of an elective cesarean delivery are that you avoid the uncertainty of labor and delivery. There’s generally less chance of fetal distress, fetal injury, pelvic floor injury and uterine rupture. A cesarean delivery eliminates a lot of risk to the fetus, as your baby doesn't have to go through the stress of birth.\n"
+        "If you have a cesarean delivery, you will need to spend a few days at the hospital to recover.\n"
+        "Recovering from cesarean delivery is similar to any major abdominal surgery; the only difference is that instead of losing an organ such as a gall bladder or an appendix, you gain a baby.\n"
+        "Except for an intact perineum, you will also experience all the postpartum discomforts of a vaginal delivery such as after pains, lochia, breast engorgement, hair loss, fatigue, increased perspiration, post partum blues, exhaustion and fatigue.\n"
+        "Expect the following in the hospital recovery room:\n"
+        "Your doctor will monitor you carefully until the effects of the anesthesia wear off. Your memory may be fuzzy if you had a general anaesthesia. Effects of spinal or an epidural block generally takes longer to wear off than general anesthesia.\n"
+        "Once the effects of anesthesia wears off, the incision starts hurting. Its intensity depends on many factors, including your pain threshold and your previous history of cesarean birth, as subsequent recoveries are less uncomfortable than the first one. You will be given pain medication to control the pain.\n"
+        "You may experience some nausea, for which the doctor may prescribe you an antiemetic (a drug that is effective against vomiting and nausea).\n"
+        "A nurse will regularly evaluate you. She will record your vital signs (temperature, blood pressure, pulse, respiration). She will also check your urinary output and vaginal discharge, the dressing of the incision, the firmness and location of your uterus and the IV and urinary catheter.\n"
+        "If your condition is stable you will be shifted to the hospital room within 24 hours of delivery. Expect the following in the hospital room:\n"
+        "Evaluation of your vital signs, dressing, urinary output and vaginal discharge, as well as the IV and urinary catheter happens regularly.\n"
+        "If you are able to urinate on your own, then your urinary catheter may be removed after 24 hours of surgery.\n"
+        "You may experience after pains similar to a woman who has had a vaginal delivery. They happen after about 12 to 24 hours after delivery. They are the contractions of uterus which helps to bring it back to its pre pregnancy shape.\n"
+        "Your IV will be discontinued and you will be allowed to take fluids by mouth about 24 hours after surgery (that is the time when your bowels begin to show signs of activity by moving or passing gas). Gradually you will be allowed to return to your normal diet over the next couple of days. Breastfeeding moms should take plenty of fluids.\n"
+        "You may get a referred shoulder pain which happens as a result of irritation of the diaphragm from air in the abdomen following surgery. This may last up to a few hours, and helped by an analgesic.\n"
+        "You may be advised to wear elastic stockings to improve circulation and to prevent formation of blood clots in the legs due to inactivity post surgery.\n"
+        "You may expect to get your stitches (if they are not absorbable) or clips removed four to six days after delivery.\n"
+        "And finally if everything goes well and there are no complications you may expect to go home about four to seven days after delivery.\n"
+        "This information is not intended to replace the advice of a trained medical doctor. Health and Parenting Ltd disclaims any liability for the decisions you make based on this information, which is provided to you on a general information basis only and not as a substitute for personalized medical advice.\n"
+
+        </item>
+
+
+    </string-array>
+
+    <string-array name="adviceDetails">
+        <item>"\nIf you're thinking about getting pregnant or if you already are you probably
+            know some of the basics about taking care of yourself and the baby. Don't smoke.
+            Don't drink. Get your rest. Here are more tips, from taking vitamins to what to do with the kitty litter,
+            that can help ensure a safe and healthy pregnancy\n"
+        </item>
+
+
+        <item>
+            "\nEven when you're still trying to conceive, it's smart to start taking prenatal vitamins.
+            Your baby's neural cord, which becomes the brain and spinal cord, develops within the first month of pregnancy,
+            so it's important you get essential nutrients, like folic acid, calcium, and iron, from the very start.\n"
+            "\nPrenatal vitamins are available over the counter at most drug stores, or you can get them by prescription from your doctor.
+            If taking them makes you feel queasy, try taking them at night or with a light snack. Chewing gum or sucking on hard candy afterward can help, too.\n"
+        </item>
+
+
+        <item>
+            "\nDetermined to have a doula? Counting on that epidural? Write down your wishes and give a copy to everyone involved with the delivery. According to the American Pregnancy Association, here are some things to consider when writing your birth plan:
+
+- Who you want present, including children or siblings of the baby\n
+- Procedures you want to avoid\n
+- What positions you prefer for labor and delivery\n
+- Special clothing you'd like to wear\n
+- Whether you want music or a special focal point\n
+- Whether you want pain medications, and what kind\n
+- What to do if complications arise\n"
+        </item>
+
+
+        <item>
+            "\nEven if this isn't your first baby, attending a childbirth class will help you feel more prepared for delivery. Not only will you have the chance to learn more about childbirth and infant care, but you can ask specific questions and voice any concerns. You'll also become more acquainted with the facility and its staff.\n"
+            "Now is also a good time to brush up on your family's medical history. Talk to your doctor about problems with past pregnancies, and report any family incidences of birth defects.\n"
+        </item>
+
+
+        <item>
+            "\nKegels strengthen the pelvic floor muscles, which support your bladder, bowels, and uterus. Done correctly, this simple exercise can help make your delivery easier and prevent problems later with incontinence. The best part: No one can tell you're doing them, so you can practice kegels in the car, while you're sitting at your desk, or even standing in line at the grocery store. Here's how to do them right:\n
+- Practice squeezing as though you're stopping the flow of urine when you use the bathroom.\n
+- Hold for three seconds, then relax for three.\n
+- Repeat 10 times.\n"
+        </item>
+
+
+        <item>
+            "\nEven everyday tasks like scrubbing the bathroom or cleaning up after pets can become risky when you're pregnant. Exposure to toxic chemicals, lifting heavy objects, or coming in contact with bacteria can harm you and your baby. Here are some things to (hooray!) take off your to-do-list:\n
+
+- Heavy lifting\n
+- Climbing on stepstools or ladders\n
+- Changing kitty litter (to avoid toxoplasmosis, a disease caused by a parasite which cats can carry)\n
+- Using harsh chemicals\n
+- Standing for long periods of time, especially near a hot stove\n
+
+
+Also, wear gloves if you're working in the yard where cats may have been, and wash your hands thoroughly after handling raw meat.
+\n"
+        </item>
+
+
+        <item>
+            "\nWe know you're eating for two. But packing on too many extra pounds may make them hard to lose later. At the same time, not can gaining enough weight can put the baby at risk for a low-weight birth, a major cause of developmental problems. Recently the Institute of Medicine (IOM) issued new guidelines for weight gain during pregnancy. Here's what the IOM recommends, based on a woman's BMI (body mass index) before becoming pregnant with one baby:\n
+
+- Underweight: Gain 28-40 pounds\n
+- Normal weight: Gain 25-35 pounds\n
+- Overweight: Gain 15-25 pounds\n
+- Obese: Gain 11-20 pounds\n
+Check in with your doctor frequently to make sure you're gaining at a healthy rate.\n"
+        </item>
+
+
+        <item>
+            "\nFolic acid is crucial for the proper development of the baby's neural tube (it covers the spinal cord), and it's vital for the creation of new red blood cells, says Frances Largeman-Roth, R.D., author of the new book Feed the Belly. Even before you find out you're pregnant, it's smart to start eating plenty of folate-rich foods like fortified cereals, asparagus, lentils, wheat germ, oranges, and orange juice.\n"
+        </item>
+
+
+        <item>
+            "\nMost doctors recommend limiting caffeine during pregnancy, since it can have harmful effects on you and the baby. Cutting back can be tough, though especially when you're used to your morning java. For a quick pick-me-up, try nibbling on some fruit. The natural sugars in fruits like bananas and apples can help lift energy levels," says registered dietitian Frances Largeman-Roth.\n"
+        </item>
+
+
+        <item>
+            "\nIn a 2007 study of more than 12,000 children, researchers found that youngsters whose moms ate the most fish during pregnancy had higher I.Q.s, plus better motor and communication skills, than those whose mothers did not eat fish. Scientists say that's because fish is high in omega 3s, a nutrient critical to brain development. There's just one catch: Some kinds of fish contain mercury, which can be toxic to both babies and adults.\n
+            To be safe, the FDA recommends that pregnant women eat no more than 12 ounces of fish per week. Stick with canned light tuna, shrimp, salmon, pollack, or catfish. Avoid swordfish, shark, king mackerel, and tilefish, which are all high in mercury.\n"
+        </item>
+
+        <item>"\nGo ahead book that flight, but take some precautions. Experts from the Mayo Clinic say mid-pregnancy, around 14 to 28 weeks, is usually the best time to fly by this time you're probably over morning sickness, and the risk of miscarriage or early delivery is low. Still, check with your doctor about any travel plans, and make sure the airline has no restrictions for pregnant women. On the plane, drink plenty of water to stay hydrated, and get up and walk around every half hour to reduce the risk of blood clots. An aisle seat will give you more room and make trips to the bathroom easier.\n"
+        </item>
+
+
+        <item>"\nBeing pregnant can be confusing, especially if it's your first time. How do you know which twinge is normal and which one isn't? According to the Centers for Disease Control and Prevention, you should call your doctor if you have any of these symptoms:\n
+
+- Pain of any kind\n
+- Strong cramps\n
+- Contractions at 20-minute intervals\n
+- Vaginal bleeding or leaking of fluid\n
+- Dizziness or fainting\n
+- Shortness of breath\n
+- Heart palpitations\n
+- Constant nausea and vomiting\n
+- Trouble walking, edema (swelling of joints)\n
+- Decreased activity by the baby\n"</item>
+
+
+        <item>"\nYou may think you're busy now, but once the baby comes you'll have even fewer precious moments to yourself. Treating yourself to a lunchtime manicure, spending a much-needed night out with the girls, or simply taking a quiet walk can help you relax and de-stress and that's good for both you and the baby.\n"
+        </item>
+
+
+    </string-array>
+
+    <!-- String add Emergency Contact-->
+    <string-array name="ambulanceName">
+        <item>Fire Service Ambulance</item>
+        <item>Anjuman Mafidul Islam</item>
+        <item>Al-Markazul Ambulance Service </item>
+        <item>P.G. Hospital (BSMMU)</item>
+        <item>Salimullah Medical College </item>
+        <item>Red cresent Ambualnce</item>
+        <item>Holy Crescent Hospital</item>
+        <item>Port Hospital </item>
+        <item>Rail Way Hospital </item>
+        <item>Urasham Hospital</item>
+
+    </string-array>
+
+
+    <string-array name="ambulancePlace">
+        <item>Dhaka</item>
+        <item>Dhaka</item>
+        <item>Dhaka</item>
+        <item>Dhaka</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Chittagong</item>
+        <item>Chittagong</item>
+        <item>Chittagong</item>
+        <item>Chittagong</item>
+
+    </string-array>
+
+
+    <string-array name="ambulancePhNumber">
+        <item>+88029556666</item>
+        <item>+88029336611</item>
+        <item>+88029127867</item>
+        <item>+88028014476</item>
+        <item>+88027319002</item>
+        <item>+8802716326</item>
+        <item>+8802620025</item>
+        <item>+8802502024</item>
+        <item>+8802502220</item>
+        <item>+8802637243</item>
+    </string-array>
+
+    <string-array name="hospitalName">
+        <item>Al-Raji Hospital Ltd</item>
+        <item>Apollo Hospital</item>
+        <item>BIRDEM</item>
+        <item>Central Hospital</item>
+        <item>City Dental College and Hospital</item>
+        <item>Dhaka Shishu Hospital</item>
+        <item>Gana Shasthya Nagar Hospital</item>
+        <item>National Heart Foundation Hospital</item>
+        <item>P.G. Hospital (BSMMU)</item>
+        <item>Diabetic Hospital</item>
+        <item>Infection Diseases Hospital</item>
+
+    </string-array>
+
+    <string-array name="hospitalPlace">
+        <item>Farmgate, Dhaka</item>
+        <item>Bashundhara R/A Dhaka-1229</item>
+        <item>Shahbabgh, Dhaka</item>
+        <item>Green Road, Dhanmondi</item>
+        <item>Malibagh, Chowdhurypara</item>
+        <item>Sher-E-Bangla Nagar, Dhaka</item>
+        <item>House #14/E, Road #6, Dhanmondi</item>
+        <item>Plot #7/2, Section #2, Mirpur, Dhaka</item>
+        <item>Shahbag, Dhaka</item>
+        <item>Chittagong</item>
+        <item>Chittagong</item>
+    </string-array>
+
+
+    <string-array name="hospitalPhNumber">
+        <item>+88029117775</item>
+        <item>+880255037242</item>
+        <item>+88029661551</item>
+        <item>+88029660015</item>
+        <item>+88029341662</item>
+        <item>+88028116061</item>
+        <item>+88028617208</item>
+        <item>+88028010491</item>
+        <item>+88028614001</item>
+        <item>+8802 617495</item>
+        <item>+8802751733</item>
+
+    </string-array>
+
+
+    <string name="menstruation_length_label">Menstruation length</string>
+    <string name="period_length_label">Period length</string>
+    <string name="button_plus_label">+</string>
+    <string name="button_minus_label">-</string>
+    <string name="last_period_date_label">Last period date</string>
+    <string name="pick_last_period_date">Set last period date</string>
+    <string name="incoming_period_notification_label">Incoming period notification</string>
+    <string name="fertile_days_notification_label">Fertile days notification</string>
+    <string name="ovulation_notification_label">Ovulation Date</string>
+    <string name="update_preferences">Update</string>
+    <string name="go_to_preferences">Preferences</string>
+    <string name="clear_calendar">Clear calendar</string>
+    <string name="ovulation_notification_title">Ovulation day!</string>
+    <string name="ovulation_notification_text">Tomorrow is Vaccine Date</string>
+    <string name="fertile_notification_title">Fertile day!</string>
+    <string name="fertile_notification_text">Tomorrow is fertile day</string>
+    <string name="period_notification_title">Menstruation day!</string>
+    <string name="period_notification_text">Tomorrow is a menstruation day</string>
+
+
+</resources>
+
+

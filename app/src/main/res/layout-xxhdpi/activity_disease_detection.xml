@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    android:padding="5dp"
+    tools:context="com.collegeproject.dev3dot.projecthealthcare.DiseaseDetectionActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/symp_1_tlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/symp_1_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Symptom First Symptom" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex_1"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/symp_2_tlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.458">
+
+        <AutoCompleteTextView
+            android:id="@+id/symp_2_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Symptom Second Symptom"  />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex_2"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/symp_3_tlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.696"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/symp_3_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Symptom Third Symptom" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex_3"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/submit_disease_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:background="@drawable/button_bg"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="55dp"
+        app:layout_constraintHorizontal_bias="0.876"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+
+</android.support.constraint.ConstraintLayout>
